@@ -1,9 +1,9 @@
 version: "3.7"
 
 services:
-  database_challenge_chapter04:
+  database_challenge_integration_tests:
     image: postgres
-    container_name: database_challenge_chapter04
+    container_name: database_challenge_integration_tests
     restart: always
     ports:
       - 5432:5432
